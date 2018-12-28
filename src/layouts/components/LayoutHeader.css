@@ -1,0 +1,77 @@
+.layoutHeader{
+    min-width: 400px;
+}
+
+.layoutHeader .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.layoutHeader .trigger:hover {
+    color: #1890ff;
+    background-color: bisque;
+}
+
+.layoutHeader .btns{
+    text-align: center
+}
+
+.layoutHeader .news{
+    width: 48px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.layoutHeader .news .bell{
+    font-size: 24px;
+    line-height: 100%
+}
+
+.layoutHeader .news .bell:hover {
+    color: #1890ff;
+}
+
+.news_content{
+    min-width: 360px;
+}
+.news_content .news_time{
+    color: #aaa;
+    font-size: 12px;
+}
+
+.layoutHeader .lang{
+    width: 64px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.layoutHeader .lang:hover{
+    background-color: bisque;
+}
+
+.lang_menu{
+    width: 120px;
+}
+
+.lang_menu span{
+    padding-left: 10px;
+}
+
+.layoutHeader .profile{
+    width: 154px;
+    cursor: pointer;
+}
+
+.layoutHeader .profile:hover{
+    background-color: bisque;
+}
+
+.layoutHeader .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
