@@ -35,6 +35,7 @@ class PageBreadcrumb extends React.Component{
                 breadcrumbs: breadcrumb_li
             })
         }
+        document.title = "antd - " + breadcrumb_li[breadcrumb_li.length-1].title;
     }
 
     render(){
